@@ -2,7 +2,7 @@
 
 ### Instructions
 
-1. Download the archive & extract it.
+1. Download the [archive](https://github.com/bootphon/erec/releases) & extract it.
 
 2. Run the script ./run.sh
 
