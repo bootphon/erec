@@ -20,7 +20,7 @@ Right now the application creates 3 recordings per audio input (Repeat, Translat
 
 The files are saved when you click on next and three more are created for the next audio input and this repeats until we go through all the files.
 
-In the input folder a log file is created with a list of the users actions.
+In the output folder a log file is created with a list of the users actions.
 
 
 ### Dependencies
