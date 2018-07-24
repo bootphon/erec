@@ -1,18 +1,13 @@
 package main.soundControllers;
 
 
-import ddf.minim.AudioPlayer;
-import ddf.minim.Minim;
-import ddf.minim.Recordable;
 import main.Main;
 import main.utils.LoggerWrapper;
 
 import javax.sound.sampled.*;
 import javax.swing.*;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
+
 
 
 public class Player {
@@ -34,7 +29,7 @@ public class Player {
 	public void play() {
 		try{
 			Clip clip;
-			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("/home/nhamilakis/input/p225_001.wav"));
+			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(currentTrack));
 			AudioFormat format = audioInputStream.getFormat();
 			System.out.println(format.toString());
 			DataLine.Info info = new DataLine.Info(Clip.class, format);
@@ -84,25 +79,6 @@ public class Player {
 	}
 
 	public String getCurrentName() {
-
 		return this.playlist.getCurrentName();
 	}
-
-	/** Minim required methods */
-	public String sketchPath( String fileName ){
-		return fileName;
-	}
-	public InputStream createInput(String fileName ){
-		try {
-			return new FileInputStream(new File(fileName));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-			return null;
-		}
-	}
-
-	public void createRecorder(Recordable source, String filename){
-
-	}
-	/** End Minim required methods */
 }

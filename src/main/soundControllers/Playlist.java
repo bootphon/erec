@@ -1,7 +1,5 @@
 package main.soundControllers;
 
-import main.utils.LoggerWrapper;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;

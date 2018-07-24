@@ -32,7 +32,8 @@ public class Main {
         });
     }
 
-    public static void main2(String[] args) throws IOException {
+    /** Debug Function */
+    public static void debug1(){
         ArrayList<String> lst = new ArrayList<>();
         lst.add("file1.wav");
         lst.add("file2.wav");
@@ -45,8 +46,8 @@ public class Main {
         result.forEach(System.out::println);
     }
 
-
-    public static void main3(String[]args) throws IOException, UnsupportedAudioFileException, LineUnavailableException, InterruptedException {
+    /** Debug Function */
+    public static void debug2() throws IOException, UnsupportedAudioFileException, LineUnavailableException, InterruptedException {
         for (Mixer.Info m : AudioSystem.getMixerInfo()) {
             System.out.println("    " + m);
         }
