@@ -1,0 +1,38 @@
+{
+  "/home/nhamilakis/input/p225_002.wav": [
+    {
+      "number_of_other_female_adults": 1,
+      "number_of_other_male_adults": 0,
+      "other_male_adults": false,
+      "other_researchers_and_students": true,
+      "research_participants": true,
+      "who_were_they_talking_to": "3",
+      "actions": "1",
+      "other_children": false,
+      "key_child": false,
+      "mother": false,
+      "number_of_other_children": 0,
+      "anyone": true,
+      "other_female_adults": true,
+      "comments": "1\n"
+    }
+  ],
+  "/home/nhamilakis/input/p225_001.wav": [
+    {
+      "number_of_other_female_adults": 1,
+      "number_of_other_male_adults": 1,
+      "other_male_adults": false,
+      "other_researchers_and_students": true,
+      "research_participants": true,
+      "who_were_they_talking_to": "3",
+      "actions": "1",
+      "other_children": false,
+      "key_child": false,
+      "mother": false,
+      "number_of_other_children": 0,
+      "anyone": true,
+      "other_female_adults": true,
+      "comments": "1\n"
+    }
+  ]
+}
