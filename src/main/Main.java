@@ -27,7 +27,7 @@ public class Main {
         player = new Player();
         LoggerWrapper.setup();
         SwingUtilities.invokeLater(() -> {
-           window = new Window("E-Recorder");
+           window = new Window("ERec");
            window.setVisible(true);
         });
     }
