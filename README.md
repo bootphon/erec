@@ -1,8 +1,8 @@
 ## Audio Recording Application
 
-### Instructions
+### Instructions
 
-1. Download the archive & extract it.
+1. Download the [archive](https://github.com/bootphon/erec/releases) & extract it.
 
 2. Go to the extracted archive and run the script "sh ./run.sh"
 
@@ -31,3 +31,15 @@ Java needs to be installed (Preferably 1.8 or better).
 
 For ubuntu/debian run : `apt-get install default-jdk`
 
+> `$ java -version`
+> openjdk version "1.8.0_171"
+
+For ubuntu/debian run : `apt-get install default-jdk`
+
+The Recording part is done using the [minim](https://github.com/ddf/Minim) audio library.
+
+## Compilation
+
+The project is compiled using intelij, just clone the repo and import it into intelij.
+
+You might need to re add the libs folder into the target jar file.
