@@ -27,8 +27,13 @@ In the output folder a log file is created with a list of the users actions.
 
 Java needs to be installed (Preferably 1.8 or better).
 
-The Recording part is done using the [minim](https://github.com/ddf/Minim) audio library.
+> `$ java -version`
+> openjdk version "1.8.0_171"
 
+
+For ubuntu/debian run : `apt-get install default-jdk`
+
+The Recording part is done using the [minim](https://github.com/ddf/Minim) audio library.
 
 ## Compilation
 
