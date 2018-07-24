@@ -1,6 +1,6 @@
 ## Audio Recording Application
 
-### Instructions
+### Instructions
 
 1. Download the archive & extract it.
 
